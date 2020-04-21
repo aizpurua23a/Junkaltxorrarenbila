@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/junkaltxorrarenbila/static/css/main.2c5478c9.chunk.css",
+    "main.js": "/junkaltxorrarenbila/static/js/main.ac241d57.chunk.js",
+    "main.js.map": "/junkaltxorrarenbila/static/js/main.ac241d57.chunk.js.map",
+    "runtime-main.js": "/junkaltxorrarenbila/static/js/runtime-main.d9fcbd01.js",
+    "runtime-main.js.map": "/junkaltxorrarenbila/static/js/runtime-main.d9fcbd01.js.map",
+    "static/js/2.e808b9a4.chunk.js": "/junkaltxorrarenbila/static/js/2.e808b9a4.chunk.js",
+    "static/js/2.e808b9a4.chunk.js.map": "/junkaltxorrarenbila/static/js/2.e808b9a4.chunk.js.map",
+    "index.html": "/junkaltxorrarenbila/index.html",
+    "precache-manifest.6a61a0a36fdca1b80420722bafc3ccf3.js": "/junkaltxorrarenbila/precache-manifest.6a61a0a36fdca1b80420722bafc3ccf3.js",
+    "service-worker.js": "/junkaltxorrarenbila/service-worker.js",
+    "static/css/main.2c5478c9.chunk.css.map": "/junkaltxorrarenbila/static/css/main.2c5478c9.chunk.css.map",
+    "static/js/2.e808b9a4.chunk.js.LICENSE.txt": "/junkaltxorrarenbila/static/js/2.e808b9a4.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/junkaltxorrarenbila/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9fcbd01.js",
+    "static/js/2.e808b9a4.chunk.js",
+    "static/css/main.2c5478c9.chunk.css",
+    "static/js/main.ac241d57.chunk.js"
+  ]
+}
