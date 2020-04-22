@@ -1,4 +1,5 @@
 import React from 'react'
+import Rooms from './rooms.js'
 
 class Entry extends React.Component {
     constructor(props){
@@ -7,7 +8,8 @@ class Entry extends React.Component {
             Salutation: 'Nor zara?',
             Welcome: 'Ongi etorri, Junkal!',
             In: false,
-            Name: ''
+            Name: '',
+            level: 0
         };
 
         this.GetIn = this.GetIn.bind(this);
@@ -20,7 +22,8 @@ class Entry extends React.Component {
         //Correct name
         if (this.state.Name === 'Junkal'){
             this.setState({
-                In: true       
+                In: true,
+                level: 1       
             });
         } else {
             alert('Zoaz etxera. Zuretzat ez dago ezer hemen.')
@@ -42,7 +45,7 @@ class Entry extends React.Component {
         if (this.state.In === false) {
             return(
                 <div>
-                    <h2>{this.state.Salutation}</h2>
+                    <h3>{this.state.Salutation}</h3>
                     <input type='text' name='name' 
                     value={this.state.Name} 
                     onChange={this.handleChange.bind(this)} />
@@ -52,8 +55,9 @@ class Entry extends React.Component {
         } else {
             return(
                 <div>
-                    <h2>{this.state.Welcome}</h2>
+                    <h3>{this.state.Welcome}</h3>
                     <button onClick={this.GetOut.bind(this)}>Agur.</button>
+                    <Rooms />
                 </div>
             );
         }
