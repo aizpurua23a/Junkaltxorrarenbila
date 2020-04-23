@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8c94f7aec67e3f939de9b0465d19b1e",
+    "revision": "0d594b937776c3c1a2f90dbe326cdcec",
     "url": "/Junkaltxorrarenbila/index.html"
   },
   {
-    "revision": "558f328013d2b5e2a293",
+    "revision": "e448bc5cad3022812999",
     "url": "/Junkaltxorrarenbila/static/css/main.2c5478c9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Junkaltxorrarenbila/static/js/2.b2b02e1f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "558f328013d2b5e2a293",
-    "url": "/Junkaltxorrarenbila/static/js/main.bf45665e.chunk.js"
+    "revision": "e448bc5cad3022812999",
+    "url": "/Junkaltxorrarenbila/static/js/main.79e420e3.chunk.js"
   },
   {
     "revision": "5896142d97301fa4e3e4",
