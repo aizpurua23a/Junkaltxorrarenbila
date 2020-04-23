@@ -4,7 +4,7 @@ import React from 'react'
 class End extends React.Component {
     constructor(props){
         super(props);
-        const room_number = 3;
+        const room_number = 5;
         this.state = {
             number: room_number,
             title: 'Fin!',
