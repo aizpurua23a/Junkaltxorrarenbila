@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Junkaltxorrarenbila/static/css/main.2c5478c9.chunk.css",
-    "main.js": "/Junkaltxorrarenbila/static/js/main.79e420e3.chunk.js",
-    "main.js.map": "/Junkaltxorrarenbila/static/js/main.79e420e3.chunk.js.map",
+    "main.js": "/Junkaltxorrarenbila/static/js/main.cf6fcfd3.chunk.js",
+    "main.js.map": "/Junkaltxorrarenbila/static/js/main.cf6fcfd3.chunk.js.map",
     "runtime-main.js": "/Junkaltxorrarenbila/static/js/runtime-main.bf1691ce.js",
     "runtime-main.js.map": "/Junkaltxorrarenbila/static/js/runtime-main.bf1691ce.js.map",
     "static/js/2.b2b02e1f.chunk.js": "/Junkaltxorrarenbila/static/js/2.b2b02e1f.chunk.js",
     "static/js/2.b2b02e1f.chunk.js.map": "/Junkaltxorrarenbila/static/js/2.b2b02e1f.chunk.js.map",
     "index.html": "/Junkaltxorrarenbila/index.html",
-    "precache-manifest.4f352a3282c01d84056ae26863430084.js": "/Junkaltxorrarenbila/precache-manifest.4f352a3282c01d84056ae26863430084.js",
+    "precache-manifest.c1437c2661f603cb93998356bade1e97.js": "/Junkaltxorrarenbila/precache-manifest.c1437c2661f603cb93998356bade1e97.js",
     "service-worker.js": "/Junkaltxorrarenbila/service-worker.js",
     "static/css/main.2c5478c9.chunk.css.map": "/Junkaltxorrarenbila/static/css/main.2c5478c9.chunk.css.map",
     "static/js/2.b2b02e1f.chunk.js.LICENSE.txt": "/Junkaltxorrarenbila/static/js/2.b2b02e1f.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.bf1691ce.js",
     "static/js/2.b2b02e1f.chunk.js",
     "static/css/main.2c5478c9.chunk.css",
-    "static/js/main.79e420e3.chunk.js"
+    "static/js/main.cf6fcfd3.chunk.js"
   ]
 }

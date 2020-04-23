@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Junkaltxorrarenbila/precache-manifest.4f352a3282c01d84056ae26863430084.js"
+  "/Junkaltxorrarenbila/precache-manifest.c1437c2661f603cb93998356bade1e97.js"
 );
 
 self.addEventListener('message', (event) => {
