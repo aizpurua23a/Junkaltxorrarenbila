@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/Junkaltxorrarenbila/static/css/main.2c5478c9.chunk.css",
-    "main.js": "/Junkaltxorrarenbila/static/js/main.31a2ca3c.chunk.js",
-    "main.js.map": "/Junkaltxorrarenbila/static/js/main.31a2ca3c.chunk.js.map",
+    "main.js": "/Junkaltxorrarenbila/static/js/main.be5129da.chunk.js",
+    "main.js.map": "/Junkaltxorrarenbila/static/js/main.be5129da.chunk.js.map",
     "runtime-main.js": "/Junkaltxorrarenbila/static/js/runtime-main.bf1691ce.js",
     "runtime-main.js.map": "/Junkaltxorrarenbila/static/js/runtime-main.bf1691ce.js.map",
-    "static/js/2.b2b02e1f.chunk.js": "/Junkaltxorrarenbila/static/js/2.b2b02e1f.chunk.js",
-    "static/js/2.b2b02e1f.chunk.js.map": "/Junkaltxorrarenbila/static/js/2.b2b02e1f.chunk.js.map",
+    "static/js/2.b6e02a07.chunk.js": "/Junkaltxorrarenbila/static/js/2.b6e02a07.chunk.js",
+    "static/js/2.b6e02a07.chunk.js.map": "/Junkaltxorrarenbila/static/js/2.b6e02a07.chunk.js.map",
     "index.html": "/Junkaltxorrarenbila/index.html",
-    "precache-manifest.a38d2900b7875b4d95b6ded99be4d230.js": "/Junkaltxorrarenbila/precache-manifest.a38d2900b7875b4d95b6ded99be4d230.js",
+    "precache-manifest.84a6a920a6432ad2838854257ea0ea99.js": "/Junkaltxorrarenbila/precache-manifest.84a6a920a6432ad2838854257ea0ea99.js",
     "service-worker.js": "/Junkaltxorrarenbila/service-worker.js",
     "static/css/main.2c5478c9.chunk.css.map": "/Junkaltxorrarenbila/static/css/main.2c5478c9.chunk.css.map",
-    "static/js/2.b2b02e1f.chunk.js.LICENSE.txt": "/Junkaltxorrarenbila/static/js/2.b2b02e1f.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/Junkaltxorrarenbila/static/media/logo.5d5d9eef.svg"
+    "static/js/2.b6e02a07.chunk.js.LICENSE.txt": "/Junkaltxorrarenbila/static/js/2.b6e02a07.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bf1691ce.js",
-    "static/js/2.b2b02e1f.chunk.js",
+    "static/js/2.b6e02a07.chunk.js",
     "static/css/main.2c5478c9.chunk.css",
-    "static/js/main.31a2ca3c.chunk.js"
+    "static/js/main.be5129da.chunk.js"
   ]
 }
