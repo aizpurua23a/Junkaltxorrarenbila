@@ -10,7 +10,7 @@ class RoomThree extends React.Component {
             title: 'Pijamaless',
             description: 'Esa era fácil, los pijamas ya están pasados de moda.',
             description_2: 'A ver este. Elige un sabor de batido. El peor. Bebiendo bebiendo, mi tripita me fue doliendo.',
-            expected_answer: "oreo",
+            expected_answer: "donut",
             answer: '',
             cleared: false,
             visible: this.props.level >= room_number,
