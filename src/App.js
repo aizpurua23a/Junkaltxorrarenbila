@@ -13,6 +13,7 @@ function App() {
       <header className="App-header">
         <Title/>
         <Entry/>
+        <p style={{"font-size": 10}}>en minusculas pls</p>
       </header>
     </div>
   );

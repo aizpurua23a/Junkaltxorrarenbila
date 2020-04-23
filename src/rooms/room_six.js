@@ -1,16 +1,16 @@
 import React from 'react'
 
 
-class RoomOne extends React.Component {
+class RoomSix extends React.Component {
     constructor(props){
         super(props);
-        const room_number = 1;
+        const room_number = 6;
         this.state = {
             number: room_number,
-            title: 'Amanecer',
-            description: 'Te despiertas en una sala blanca. Sin puertas ni ventanas. No recuerdas cómo has llegado hasta aquí.',
-            description_2: 'Ante ti, un cartel que dice: "Hola" y un teclado. Es como si esperara que respondieras.',
-            expected_answer: "hola",
+            title: 'Cuánto dolor trae el futuro',
+            description: 'Hay muchos futuros, y a veces la gente hasta regresa de ellos, dos veces.',
+            description_2: '¿En qué año se regresó del futuro por segunda vez?',
+            expected_answer: "1989",
             answer: '',
             cleared: false,
             visible: this.props.level >= room_number,
@@ -80,4 +80,4 @@ class RoomOne extends React.Component {
     }
 }
 
-export default RoomOne;
+export default RoomSix;

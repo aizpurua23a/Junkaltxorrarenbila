@@ -1,16 +1,16 @@
 import React from 'react'
 
 
-class RoomOne extends React.Component {
+class RoomTwelve extends React.Component {
     constructor(props){
         super(props);
-        const room_number = 1;
+        const room_number = 12;
         this.state = {
             number: room_number,
-            title: 'Amanecer',
-            description: 'Te despiertas en una sala blanca. Sin puertas ni ventanas. No recuerdas cómo has llegado hasta aquí.',
-            description_2: 'Ante ti, un cartel que dice: "Hola" y un teclado. Es como si esperara que respondieras.',
-            expected_answer: "hola",
+            title: 'De cine (5/6): ¿Dónde Estoy?',
+            description: 'Isla',
+            description_2: 'BI, EGIIE (N) - IB, EHDACC (O)',
+            expected_answer: "king kong",
             answer: '',
             cleared: false,
             visible: this.props.level >= room_number,
@@ -48,6 +48,10 @@ class RoomOne extends React.Component {
         }
     }
 
+    pista(){
+        alert('A = 0')
+    }
+
 
     render() {
         if (this.state.visible === false) {
@@ -71,6 +75,7 @@ class RoomOne extends React.Component {
                             onChange={this.handleChange.bind(this)} />
 
                         <button onClick={this.clear.bind(this)}>Enviar</button>
+                        <button onClick={this.pista.bind(this)}>Pista</button>
                     </div>
 
                 )
@@ -80,4 +85,4 @@ class RoomOne extends React.Component {
     }
 }
 
-export default RoomOne;
+export default RoomTwelve;

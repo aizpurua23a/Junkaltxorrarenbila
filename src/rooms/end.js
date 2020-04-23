@@ -4,11 +4,11 @@ import React from 'react'
 class End extends React.Component {
     constructor(props){
         super(props);
-        const room_number = 5;
+        const room_number = 15;
         this.state = {
             number: room_number,
-            title: 'Fin!',
-            description: '¡Ya está! ¡Ya eres libre!',
+            title: 'Vale, te creo. Eres Junkal.',
+            description: 'Zorionak!!!!!11!!!!!!1!1!!!!',
             expected_answer: "",
             answer: '',
             cleared: false,

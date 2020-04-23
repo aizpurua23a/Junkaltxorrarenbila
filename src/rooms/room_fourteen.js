@@ -1,16 +1,16 @@
 import React from 'react'
 
 
-class RoomOne extends React.Component {
+class RoomFourteen extends React.Component {
     constructor(props){
         super(props);
-        const room_number = 1;
+        const room_number = 14;
         this.state = {
             number: room_number,
-            title: 'Amanecer',
-            description: 'Te despiertas en una sala blanca. Sin puertas ni ventanas. No recuerdas cómo has llegado hasta aquí.',
-            description_2: 'Ante ti, un cartel que dice: "Hola" y un teclado. Es como si esperara que respondieras.',
-            expected_answer: "hola",
+            title: 'En estilo no hay quien le gane',
+            description: 'Lip-syncs memorables.',
+            description_2: 'Y su sonrisa es preciosa.',
+            expected_answer: "valentina",
             answer: '',
             cleared: false,
             visible: this.props.level >= room_number,
@@ -48,6 +48,10 @@ class RoomOne extends React.Component {
         }
     }
 
+    pista(){
+        alert('You look like Linda Evangelista!')
+    }
+
 
     render() {
         if (this.state.visible === false) {
@@ -66,11 +70,13 @@ class RoomOne extends React.Component {
                         <p>{this.state.description}</p>
                         <p>{this.state.description_2}</p>
 
-                            <input type='text' name='name' 
-                            value={this.state.Name} 
-                            onChange={this.handleChange.bind(this)} />
+                        <input type='text' name='name' 
+                        value={this.state.Name} 
+                        onChange={this.handleChange.bind(this)} />
 
                         <button onClick={this.clear.bind(this)}>Enviar</button>
+                        
+                        <button onClick={this.pista.bind(this)}>Pista</button>
                     </div>
 
                 )
@@ -80,4 +86,4 @@ class RoomOne extends React.Component {
     }
 }
 
-export default RoomOne;
+export default RoomFourteen;
