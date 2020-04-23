@@ -1,16 +1,16 @@
 import React from 'react'
 
 
-class RoomTwo extends React.Component {
+class RoomThree extends React.Component {
     constructor(props){
         super(props);
-        const room_number = 2;
+        const room_number = 3;
         this.state = {
             number: room_number,
-            title: '¿Quién eres?',
-            description: 'Una voz te pregunta. ¿Quién eres?. Sabes que vienes del siglo XXI. Nada más.',
-            description_2: 'La voz continúa, cantando: "Si tú me llamas / nos vamo\' pa\' tu casa / Nos quedamo\' en la cama". ¿Sin qué?',
-            expected_answer: "pijama",
+            title: 'Pijamaless',
+            description: 'Esa era fácil, los pijamas ya están pasados de moda.',
+            description_2: 'A ver este. Elige un sabor de batido. El peor. Bebiendo bebiendo, mi tripita me fue doliendo.',
+            expected_answer: "oreo",
             answer: '',
             cleared: false,
             visible: this.props.level >= room_number,
@@ -80,4 +80,4 @@ class RoomTwo extends React.Component {
     }
 }
 
-export default RoomTwo;
+export default RoomThree;

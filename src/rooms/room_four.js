@@ -1,16 +1,16 @@
 import React from 'react'
 
 
-class RoomTwo extends React.Component {
+class RoomFour extends React.Component {
     constructor(props){
         super(props);
-        const room_number = 2;
+        const room_number = 4;
         this.state = {
             number: room_number,
-            title: '¿Quién eres?',
-            description: 'Una voz te pregunta. ¿Quién eres?. Sabes que vienes del siglo XXI. Nada más.',
-            description_2: 'La voz continúa, cantando: "Si tú me llamas / nos vamo\' pa\' tu casa / Nos quedamo\' en la cama". ¿Sin qué?',
-            expected_answer: "pijama",
+            title: 'Donut Shake',
+            description: 'Vale, creo que ya sé quién eres. Pero...',
+            description_2: 'Hace poco se casó alguien cercano a ti. Llevaba algo que fascinó a todos. ¿Qué era?.',
+            expected_answer: "fascinator",
             answer: '',
             cleared: false,
             visible: this.props.level >= room_number,
@@ -80,4 +80,4 @@ class RoomTwo extends React.Component {
     }
 }
 
-export default RoomTwo;
+export default RoomFour;

@@ -1,7 +1,12 @@
 import React from 'react'
 
 import RoomOne from './rooms/room_one.js'
+
 import RoomTwo from './rooms/room_two.js'
+import RoomThree from './rooms/room_three.js'
+import RoomFour from './rooms/room_four.js'
+
+
 import End from './rooms/end.js'
 
 class Rooms extends React.Component {
@@ -25,6 +30,8 @@ class Rooms extends React.Component {
             <div>
                 <RoomOne level = {this.state.level} next = {this.Next}/>
                 <RoomTwo level = {this.state.level} next = {this.Next}/>
+                <RoomThree level = {this.state.level} next = {this.Next}/>
+                <RoomFour level = {this.state.level} next = {this.Next}/>
                 <End level = {this.state.level} />
             </div>
         )

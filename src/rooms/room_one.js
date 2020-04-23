@@ -7,9 +7,10 @@ class RoomOne extends React.Component {
         const room_number = 1;
         this.state = {
             number: room_number,
-            title: 'Título de la primera sala',
-            description: 'Esta primera sala es la primera sala. Tienes que poner "primera" en la casilla para pasar a la siguiente',
-            expected_answer: "primera",
+            title: 'Amanecer',
+            description: 'Te despiertas en una sala blanca. Sin puertas ni ventanas. No recuerdas cómo has llegado hasta aquí.',
+            description_2: 'Ante ti, un cartel que dice: "Hola" y un teclado. Es como si esperara que respondieras.',
+            expected_answer: "hola",
             answer: '',
             cleared: false,
             visible: this.props.level >= room_number,
@@ -63,12 +64,14 @@ class RoomOne extends React.Component {
                     <div>
                         <h3>Sala {this.state.number}: {this.state.title}</h3>
                         <p>{this.state.description}</p>
+                        <p>{this.state.description_2}</p>
 
                             <input type='text' name='name' 
                             value={this.state.Name} 
                             onChange={this.handleChange.bind(this)} />
 
-                        <button onClick={this.clear.bind(this)}> naiz.</button>
+                        <button onClick={this.clear.bind(this)}>Enviar</button>
+                        <p style={{ "font-size": 8}}>todo minúsculas pls</p>
                     </div>
 
                 )

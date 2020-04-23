@@ -20,7 +20,7 @@ class Entry extends React.Component {
     GetIn() {
 
         //Correct name
-        if (this.state.Name === 'Junkal'){
+        if (this.state.Name === 'junkal'){
             this.setState({
                 In: true,
                 level: 1       
