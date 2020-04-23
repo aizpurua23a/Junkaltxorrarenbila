@@ -1,21 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Helmet } from 'react-helmet'
 
 import Title from './title.js'
 import Entry from './entry.js'
 
-
+const TITLE = 'Junkaltxorraren bila'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Title/>
-        <Entry/>
-        <p style={{"font-size": 10}}>en minusculas pls</p>
-      </header>
-    </div>
+    <>
+      <Helmet>
+        <title>{ TITLE }</title>
+        <meta name="description" content="Altxorraren bila apirilak 24, 2020" />
+      </Helmet>
+
+      <div className="App">
+        <header className="App-header">
+          <Title/>
+          <Entry/>
+          <p style={{"font-size": 10}}>en minusculas pls</p>
+        </header>
+      </div>
+    </>
   );
 }
 
